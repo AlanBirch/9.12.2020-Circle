@@ -15,20 +15,19 @@ public class Circle {
 
     public double Circuit(){
         double o = 2 * Math.PI * r;
-        System.out.println("The circuit is: " + o);
         return o;
     }
 
     public double Area(){
         double s = Math.PI * Math.sqrt(r);
-        System.out.println("Area of circle is: " + s);
         return s;
     }
 
     public void Information(){
-        System.out.println("Information about circle: \nColor: " + color + "\nRadius: " + r);
-        Circuit();
-        Area();
+        System.out.println("Information about circle: \nColor: " + color +
+                           "\nRadius: " + r +
+                           "\nThe circuit is: " + Circuit() +
+                           "\nArea of circle is: " + Area());
     }
 
     public double arcLenght(int alpha){
