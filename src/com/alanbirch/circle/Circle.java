@@ -5,8 +5,8 @@ public class Circle {
     private static String color = "green";
     private double r;
 
-    public Circle(double r) {
-        this.r = r;
+    public Circle(double a) {
+        this.r = a;
     }
 
     public Circle() {
